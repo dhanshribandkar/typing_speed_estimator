@@ -63,6 +63,13 @@ Open the project in your preferred code editor (VS Code recommended):
 ```bash
 code .
 ```
+All the project files are already included:
+
+- `index.html` → main webpage
+- `style.css` → styling
+- `script.js` → typing logic
+- `model.js` → AI model for skill prediction
+
 ### Usage
 
 1. Open `index.html` in your web browser.  
