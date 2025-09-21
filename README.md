@@ -52,3 +52,31 @@
 
 ```bash
 git clone https://github.com/dhanshribandkar/typing_speed_estimator.git
+```
+2. Navigate into the project folder:
+
+```bash
+cd typing_speed_estimator
+```
+Open the project in your preferred code editor (VS Code recommended):
+
+```bash
+code .
+```
+### Usage
+
+1. Open `index.html` in your web browser.  
+2. You will see a **random paragraph** displayed.  
+3. Type the paragraph in the input box as accurately and quickly as possible.  
+4. After completing the paragraph, the app will display:  
+   - **Words Per Minute (WPM)**  
+   - **Accuracy (%)**  
+   - **Mistakes made**  
+   - **AI-predicted skill level** (Beginner, Intermediate, Advanced)  
+5. Click the **Restart** button to try another paragraph and continue practicing.
+
+## 📄 License
+
+This project is **open-source** and available under the **MIT License**.
+
+
