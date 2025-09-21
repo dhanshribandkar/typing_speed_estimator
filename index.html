@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Estimator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⌨️ Typing Speed Test</h1>
+
+    <div class="text-box">
+      <p id="sample-text"></p>
+    </div>
+
+    <textarea id="input-area" placeholder="Start typing here..."></textarea>
+    <button id="restart-btn">Restart</button>
+
+    <div class="results" id="results" style="display:none;">
+      <h2>Results</h2>
+      <p>WPM: <span id="wpm">0</span></p>
+      <p>Accuracy: <span id="accuracy">100</span>%</p>
+      <p>Mistakes: <span id="mistakes">0</span></p>
+      <p>AI Prediction: <span id="level">---</span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.19.0/dist/tf.min.js"></script>
+  <script src="model.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
